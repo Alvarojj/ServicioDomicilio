@@ -1,21 +1,47 @@
 <div class="position-relative start-50 translate-middle title">
-    <h1>menu</h1>
+  <h1>menu</h1>
 </div>
 <div class="d-flex">
-    <div class="opciones">
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item activo">Corrientazos</li>
-            <li class="list-group-item">Sopas</li>
-            <li class="list-group-item">Jugos</li>
-            <li class="list-group-item">Gaseosas</li>
-          </ul>
-    </div>
-    <div class="productos">
+  <div class="opciones">
+      <ul class="list-group list-group-flush">
+          <li class="list-group-item ">
+            <a routerLink="/menu" class="activo">Corrientazos</a></li>
+          <li class="list-group-item">
+            <a routerLink="/sopa">Sopas</a>
+          </li>
+          <li class="list-group-item">
+            <a routerLink="/jugos">Jugos</a>
+          </li>
+          <li class="list-group-item">
+            <a routerLink="/gaseosas">Gaseosas</a>
+          </li>
+          <li class="list-group-item">
+            <a>Mi carrito</a>
+          </li>
+        </ul>
+  </div>
+  <div class="productos">
+    <div class="card">
       <div class="card">
+        <div class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Corriente...........................................................$7.000
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ut enim voluptates qui ex molestiae ad odit iure quo, obcaecati nihil reprehenderit error aspernatur accusantium aperiam nisi ducimus ab eius.</p>  
+          </button>
+          </div>
+      </div>
+      <div class="card">
+        <div class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Corriente...........................................................$7.000
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ut enim voluptates qui ex molestiae ad odit iure quo, obcaecati nihil reprehenderit error aspernatur accusantium aperiam nisi ducimus ab eius.</p>  
+          </button>
+          </div>
+      </div>
         <div class="card">
           <div class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <button class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              Perro sencillo....................................................................................................................$7.000
+              Corriente.........................................................$7.000
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ut enim voluptates qui ex molestiae ad odit iure quo, obcaecati nihil reprehenderit error aspernatur accusantium aperiam nisi ducimus ab eius.</p>  
             </button>
             </div>
@@ -23,48 +49,32 @@
         <div class="card">
           <div class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <button class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              Perro sencillo....................................................................................................................$7.000
+              Corriente..........................................................$7.000
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ut enim voluptates qui ex molestiae ad odit iure quo, obcaecati nihil reprehenderit error aspernatur accusantium aperiam nisi ducimus ab eius.</p>  
             </button>
             </div>
         </div>
-          <div class="card">
-            <div class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              <button class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Perro sencillo....................................................................................................................$7.000
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ut enim voluptates qui ex molestiae ad odit iure quo, obcaecati nihil reprehenderit error aspernatur accusantium aperiam nisi ducimus ab eius.</p>  
-              </button>
-              </div>
-          </div>
-          <div class="card">
-            <div class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              <button class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Perro sencillo....................................................................................................................$7.000
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ut enim voluptates qui ex molestiae ad odit iure quo, obcaecati nihil reprehenderit error aspernatur accusantium aperiam nisi ducimus ab eius.</p>  
-              </button>
-              </div>
-          </div>
-    </div>
+  </div>
 </div>
 
 
 <!-- Modal -->
 <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      ...
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary">Save changes</button>
     </div>
   </div>
+</div>
 </div>
 
 
