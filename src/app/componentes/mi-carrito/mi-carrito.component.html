@@ -1,0 +1,71 @@
+<div class="position-relative start-50 translate-middle title">
+  <h1>Menú</h1>
+</div>
+<div class="d-flex">
+  <div class="opciones">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item ">
+        <a routerLink="/menu">Corrientazos</a>
+      </li>
+      <li class="list-group-item">
+        <a routerLink="/sopa">Sopas</a>
+      </li>
+      <li class="list-group-item">
+        <a routerLink="/jugos">Jugos</a>
+      </li>
+      <li class="list-group-item">
+        <a routerLink="/gaseosas">Gaseosas</a>
+      </li>
+      <li class="list-group-item">
+        <a class="activo" routerLink="/carrito">Mi carrito</a>
+      </li>
+    </ul>
+  </div>
+  <div class="productos">
+      <div class="card">
+        <div class="card-body">
+          <h5>Nombre del producto</h5>
+          <div class="d-flex precio">
+            <h6>$ Precio</h6>
+            <input type="number">
+          </div>
+        </div>
+    </div>
+    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Realizar pedido</button> 
+  </div>
+  </div>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Datos personales</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Ingrese su nombre</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Nunca compartiremos su infomación con nadie más.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Ingrese su dirección</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="text" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Ingrese su numero de celular</label>
+            <input type="text" class="form-control" id="exampleInputPassword1">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Finalizar pedido</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -72,3 +72,11 @@
     font-size: 15px;
     font-family: "PP Telegraf";
 }
+
+.btn{
+    display: block;
+    float: right;
+    background-color: #b94d03;
+    color: #000;
+    font-family: "PP Telegraf UltraBold"; 
+}

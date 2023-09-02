@@ -5,6 +5,7 @@ import {CartaComponent} from './componentes/carta/carta.component';
 import {  SopaComponent} from "./componentes/sopa/sopa.component"; 
 import { JugosComponent } from "./componentes/jugos/jugos.component";
 import { GaseosasComponent } from "./componentes/gaseosas/gaseosas.component";
+import { MiCarritoComponent } from "./componentes/mi-carrito/mi-carrito.component";
 
 const routes: Routes = [
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: 'gaseosas',
     component: GaseosasComponent
+  },
+  {
+    path: 'carrito',
+    component: MiCarritoComponent
   }
 ];
 
