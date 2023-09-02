@@ -1,0 +1,72 @@
+@import url(https://db.onlinewebfonts.com/c/cd1ff12a61d0f65ad3079a7c7461b61f?family=Oilvare+Base);
+@import url(https://db.onlinewebfonts.com/c/ac187c52eeff516225fc35f138f225fc?family=PP+Telegraf+UltraBold);
+.title{
+    height: 260px;
+    width: 393px;
+    background-image: url(../../../assets/cartel.jpg);
+    background-size: cover;
+    top: 0;
+
+}
+
+.title h1{
+ position: absolute;
+ bottom: 40px;
+ left: 25%;
+ font-family: "Oilvare Base"; 
+ font-size: 50px;
+}
+
+.opciones{
+    width: 20%;
+    margin-right: 40px;
+    margin-top: -70px;
+}
+
+.list-group-item{
+    font-family: "Oilvare Base";
+    color: #544013;
+    font-size: 25px;
+    text-align: center;
+    width: 240px;
+    margin-bottom: 30px;
+    background-image: url(../../../assets/casilla.jpg);
+}
+.list-group-item:hover{
+    cursor: pointer;
+}
+
+.productos{
+    width: 80%;
+    margin-top: -70px;
+}
+
+.card{
+    background: none;
+    border: none;
+    margin-bottom: 2px;
+
+}
+
+.card-body:hover{
+    cursor: pointer;
+    font-size: 26px;
+    color: #b94d03;
+}
+
+.card-body{
+    font-family: "PP Telegraf UltraBold"; 
+    font-size: 25px;
+    color: #544013;
+    background: none;
+    border: none;
+    text-align: left;
+}
+
+.card-body p{
+    font-size: 15px;
+    font-family: "PP Telegraf";
+}
+.activo{
+    color: #b94d03;
+}

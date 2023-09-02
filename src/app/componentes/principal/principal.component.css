@@ -1,0 +1,28 @@
+@import url(https://db.onlinewebfonts.com/c/cd1ff12a61d0f65ad3079a7c7461b61f?family=Oilvare+Base); 
+@import url(https://db.onlinewebfonts.com/c/ac187c52eeff516225fc35f138f225fc?family=PP+Telegraf+UltraBold); 
+
+.contenedor{
+    text-align: center;
+    color: #544013;
+
+}
+
+.contenedor h1{
+    font-family: "Oilvare Base"; 
+    font-size: 90px;
+    margin-bottom: 50px;
+}
+
+.footer{
+    margin-bottom: 50px;
+    font-family: "PP Telegraf UltraBold"; 
+}
+
+.ubicacion{
+    margin-right: 10px;
+}
+
+.ubicacion img{
+    margin-right: 10px;
+}
+
