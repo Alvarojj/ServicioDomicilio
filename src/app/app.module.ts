@@ -10,6 +10,8 @@ import { SopaComponent } from './componentes/sopa/sopa.component';
 import { JugosComponent } from './componentes/jugos/jugos.component';
 import { GaseosasComponent } from './componentes/gaseosas/gaseosas.component';
 import { MiCarritoComponent } from './componentes/mi-carrito/mi-carrito.component';
+import { HeladosComponent } from './componentes/helados/helados.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,11 +22,13 @@ import { MiCarritoComponent } from './componentes/mi-carrito/mi-carrito.componen
     SopaComponent,
     JugosComponent,
     GaseosasComponent,
-    MiCarritoComponent
+    MiCarritoComponent,
+    HeladosComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -4,10 +4,10 @@
 <div class="d-flex">
   <div class="opciones">
     <ul class="list-group list-group-flush">
-      <li class="list-group-item ">
-        <a routerLink="/menu" class="activo">Corrientazos</a>
-      </li>
       <li class="list-group-item">
+        <a routerLink="/menu">Corrientazos</a>
+      </li>
+      <li class="list-group-item ">
         <a routerLink="/sopa">Sopas</a>
       </li>
       <li class="list-group-item">
@@ -17,7 +17,7 @@
         <a routerLink="/gaseosas">Gaseosas</a>
       </li>
       <li class="list-group-item">
-        <a routerLink="/helado">Helados</a>
+        <a class="activo" routerLink="/helado">Helados</a>
       </li>
       <li class="list-group-item">
         <a routerLink="/carrito">Mi carrito</a>
@@ -26,7 +26,7 @@
   </div>
   <div class="productos">
     <div class="card" *ngFor="let item of ProductosLista">
-      <div class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal" *ngIf="item.tipo == 'corrientazo' ">
+      <div class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal" *ngIf="item.tipo == 'helado' ">
         <button class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal"
           (click)="obtenerDatos(item.titulo, item.precio)">
           {{item.titulo}}...........................................................${{item.precio}}

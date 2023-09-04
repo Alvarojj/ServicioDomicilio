@@ -17,26 +17,31 @@
         <a routerLink="/gaseosas">Gaseosas</a>
       </li>
       <li class="list-group-item">
+        <a routerLink="/helado">Helados</a>
+      </li>
+      <li class="list-group-item">
         <a class="activo" routerLink="/carrito">Mi carrito</a>
       </li>
     </ul>
   </div>
   <div class="productos">
-      <div class="card">
-        <div class="card-body">
-          <h5>Nombre del producto</h5>
-          <div class="d-flex precio">
-            <h6>$ Precio</h6>
-            <input type="number">
-          </div>
+    <div class="card" *ngFor="let iteme of pedidos">
+      <div class="card-body">
+        <h5> {{iteme.titulo}} </h5>
+        <div class="d-flex precio">
+          <h6>precio ${{iteme.precio * iteme.cantidad }} </h6>
+          <h6> cantidad {{iteme.cantidad}} </h6>
         </div>
+      </div>
     </div>
-    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Realizar pedido</button> 
+    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop" (click)="total()">Realizar
+      pedido</button>
   </div>
-  </div>
+</div>
 
 <!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -44,8 +49,6 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-
-
         <form>
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Ingrese su nombre</label>
@@ -61,10 +64,13 @@
             <label for="exampleInputPassword1" class="form-label">Ingrese su numero de celular</label>
             <input type="text" class="form-control" id="exampleInputPassword1">
           </div>
+          <div>
+            <p>Cantidad total a pagar: {{precioTotal}} </p>
+          </div>
         </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Finalizar pedido</button>
+        <button type="button" class="btn btn-primary" routerLink="/" (click)="finalizarPedido()" data-bs-dismiss="modal">Finalizar pedido</button>
       </div>
     </div>
   </div>

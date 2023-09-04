@@ -1,0 +1,110 @@
+[
+    {
+        "tipo": "corrientazo",
+        "titulo": "Corrientazo de pollo",
+        "Descricion": "rica sopa de pollo",
+        "precio": 10000
+    },
+    {
+        "tipo": "corrientazo",
+        "titulo": "Corrientazo de cerdo",
+        "Descricion": "rica sopa de cerdo",
+        "precio": 12000
+    },
+    {
+        "tipo": "corrientazo",
+        "titulo": "Corrientazo de Lomo",
+        "Descricion": "rica sopa de Lomo",
+        "precio": 15000
+    },
+    {
+        "tipo": "sopa",
+        "titulo": "Sopa de costilla",
+        "Descricion": "rica sopa de costilla",
+        "precio": 5000
+    },
+    {
+        "tipo": "sopa",
+        "titulo": "Sopa de mondongo",
+        "Descricion": "rica sopa de mondongo",
+        "precio": 5000
+    },
+    {
+        "tipo": "sopa",
+        "titulo": "Mote de queso",
+        "Descricion": "rico mote de queso",
+        "precio": 5000
+    },
+    {
+        "tipo": "jugo",
+        "titulo": "Maracuya en leche",
+        "Descricion": "rico jugo de maracuya en leche",
+        "precio": 2000
+    },
+    {
+        "tipo": "jugo",
+        "titulo": "Fresa en leche",
+        "Descricion": "rico jugo de Fresa en leche",
+        "precio": 2000
+    },
+    {
+        "tipo": "jugo",
+        "titulo": "Mora en leche",
+        "Descricion": "rico jugo de Mora en leche",
+        "precio": 2000
+    },
+    {
+        "tipo": "jugo",
+        "titulo": "Maracuya en Agua",
+        "Descricion": "rico jugo de maracuya en Agua",
+        "precio": 2000
+    },
+    {
+        "tipo": "jugo",
+        "titulo": "Fresa en Agua",
+        "Descricion": "rico jugo de Fresa en Agua",
+        "precio": 2000
+    },
+    {
+        "tipo": "jugo",
+        "titulo": "Mora en Agua",
+        "Descricion": "rico jugo de Mora en Agua",
+        "precio": 2000
+    },
+    {
+        "tipo": "gaseosa",
+        "titulo": "Coca cola",
+        "Descricion": "deliciosa coca cola",
+        "precio": 2500
+    },
+    {
+        "tipo": "gaseosa",
+        "titulo": "Manzana",
+        "Descricion": "deliciosa Manzana",
+        "precio": 2500
+    },
+    {
+        "tipo": "gaseosa",
+        "titulo": "Sprite",
+        "Descricion": "deliciosa Sprite",
+        "precio": 2500
+    },
+    {
+        "tipo": "helado",
+        "titulo": "vainilla",
+        "Descricion": "delicioso helado de vainilla",
+        "precio": 3000
+    },
+    {
+        "tipo": "helado",
+        "titulo": "Chocolate",
+        "Descricion": "delicioso helado de chocolate",
+        "precio": 3000
+    },
+    {
+        "tipo": "helado",
+        "titulo": "Fresa",
+        "Descricion": "delicioso helado de Fresa",
+        "precio": 3000
+    }
+]

@@ -1,17 +1,15 @@
 import { Component } from '@angular/core';
 import productos from './../../../assets/productos.json'
 @Component({
-  selector: 'app-carta',
-  templateUrl: './carta.component.html',
-  styleUrls: ['./carta.component.css']
+  selector: 'app-helados',
+  templateUrl: './helados.component.html',
+  styleUrls: ['./helados.component.css']
 })
-export class CartaComponent {
+export class HeladosComponent {
   titulo: String = '';
   precio: number = 0;
   cantidad: number = 1;
   pedidos: any[] = [];
-
-
 
   ProductosLista: { tipo: String, titulo: String, Descricion: String, precio: number }[] = productos
 
