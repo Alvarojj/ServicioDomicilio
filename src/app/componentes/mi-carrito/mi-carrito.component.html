@@ -34,8 +34,9 @@
         </div>
       </div>
     </div>
-    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop" (click)="total()">Realizar
+    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop" (click)="total()" *ngIf="pedidos != null">Realizar
       pedido</button>
+      <h4 *ngIf="pedidos == null">No hay items seleccionados</h4>
   </div>
 </div>
 
@@ -62,7 +63,7 @@
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Ingrese su numero de celular</label>
-            <input type="text" class="form-control" id="exampleInputPassword1">
+            <input type="text" class="form-control" id="exampleInputPassword1"> 
           </div>
           <div>
             <p>Cantidad total a pagar: {{precioTotal}} </p>
@@ -70,7 +71,7 @@
         </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" routerLink="/" (click)="finalizarPedido()" data-bs-dismiss="modal">Finalizar pedido</button>
+        <button type="button" class="btn btn-primary" routerLink="/" (click)="finalizarPedido()" data-bs-dismiss="modal" >Finalizar pedido</button>
       </div>
     </div>
   </div>

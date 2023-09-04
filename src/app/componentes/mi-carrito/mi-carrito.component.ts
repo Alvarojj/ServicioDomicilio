@@ -9,6 +9,9 @@ export class MiCarritoComponent {
   data: any = localStorage.getItem('micarrito');
   pedidos: any[] = JSON.parse(this.data);
   precioTotal: number = 0;
+
+
+
   total():void{
     let subtotal = 0;
     for(let i = 0; i < this.pedidos.length; i++){
